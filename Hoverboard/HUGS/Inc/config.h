@@ -29,7 +29,7 @@
 // ################################################################################
 
 #define PWM_FREQ         		16000     // PWM frequency in Hz
-#define DEAD_TIME        		60        // PWM deadtime (60 = 1µs, measured by oscilloscope)
+#define DEAD_TIME        		60        // PWM deadtime (60 = 1ï¿½s, measured by oscilloscope)
 #define DC_CUR_LIMIT_MA  		15000     // Motor DC current limit in milli Amps
 
 // ################################################################################
@@ -43,9 +43,9 @@
 
 // ################################################################################
 
-#define BAT_LOW_LVL1_MV  35000      // Gently beeps, show green battery symbol above this Level.
-#define BAT_LOW_LVL2_MV  33000      // Battery almost empty, show orange battery symbol above this Level. Charge now! 
-#define BAT_LOW_DEAD_MV  31000      // Undervoltage lockout, show red battery symbol above this Level.
+#define BAT_LOW_LVL1_MV  24000      // Gently beeps, show green battery symbol above this Level.
+#define BAT_LOW_LVL2_MV  22000      // Battery almost empty, show orange battery symbol above this Level. Charge now! 
+#define BAT_LOW_DEAD_MV  19000      // Undervoltage lockout, show red battery symbol above this Level.
 
 // ################################################################################
 
